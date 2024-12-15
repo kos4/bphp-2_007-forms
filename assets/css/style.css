@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  font-family: Arial, serif;
+  line-height: normal;
+
+  color: black;
+  background: none;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 50px 0;
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+
+  font-weight: bold;
+}
+
+.form__input {
+  width: 300px;
+}
+
+.error {
+  font-weight: bold;
+
+  color: red;
+}

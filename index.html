@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Form</title>
+</head>
+<body>
+<div class="wrapper">
+  <form class="form" action="./upload.php" method="post" enctype="multipart/form-data">
+    <div class="form__group">
+      <label for="file_name" class="form__label">С каким именем сохранить файл на сервере</label>
+      <input type="text" class="form__input" id="file_name" name="file_name">
+    </div>
+    <div class="form__group">
+      <label for="content" class="form__label">Выберите файл</label>
+      <input type="file" id="content" name="content" class="form__file">
+    </div>
+    <button>Загрузить</button>
+  </form>
+</div>
+</body>
+</html>
